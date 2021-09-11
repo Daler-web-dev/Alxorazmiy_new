@@ -1,0 +1,43 @@
+.fade-enter-active, .fade-leave-active,
+.height-enter-active, .height-leave-active,
+.bottom-top-enter-active, .bottom-top-leave-active,
+.transform-bottom-top-enter-active, .transform-bottom-top-leave-active,
+.top-bottom-enter-active, .top-bottom-leave-active
+{
+  transition: .3s ease;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0
+}
+
+.height-enter, .height-leave-to {
+  opacity: 0;
+  height: 0;
+}
+
+.bottom-top-enter, .bottom-top-leave-to {
+  margin-top: 30px;
+  opacity: 0;
+}
+
+.top-bottom-enter, .top-bottom-leave-to {
+  margin-top: -30px;
+  opacity: 0;
+}
+
+.transform-bottom-top-enter, .transform-bottom-top-leave-to {
+  // margin-top: 30px;
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+// Menu
+.menu-animation-enter-active, .menu-animation-leave-active {
+  transition: .5s linear;
+}
+
+.menu-animation-enter, .menu-animation-leave-to {
+  margin-top: -100%;
+  opacity: 0;
+}

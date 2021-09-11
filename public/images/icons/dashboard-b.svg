@@ -1,0 +1,10 @@
+<svg id="dashboard" xmlns="http://www.w3.org/2000/svg" width="384" height="384" viewBox="0 0 384 384">
+  <g id="Group_6402" data-name="Group 6402">
+    <g id="Group_6401" data-name="Group 6401">
+      <rect id="Rectangle_605" data-name="Rectangle 605" width="170.667" height="128" transform="translate(213.333)" fill="#fff"/>
+      <rect id="Rectangle_606" data-name="Rectangle 606" width="170.667" height="213.333" fill="#fff"/>
+      <rect id="Rectangle_607" data-name="Rectangle 607" width="170.667" height="128" transform="translate(0 256)" fill="#fff"/>
+      <rect id="Rectangle_608" data-name="Rectangle 608" width="170.667" height="213.333" transform="translate(213.333 170.667)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

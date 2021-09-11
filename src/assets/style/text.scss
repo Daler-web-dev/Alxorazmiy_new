@@ -1,0 +1,120 @@
+h1, .h1 {
+	font-size: 'Gilroy';
+	color: var(--black);
+	font-size: 77px;
+	line-height: .95;
+    font-weight: 800;
+	margin: 0;
+}
+
+h2, .h2 {
+	font-weight: 500;
+	font-size: 47px;
+	line-height: 1.1;
+}
+
+.note {
+	color: var(--grey);
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.t-black {
+	color: var(--black);
+}
+
+.corp {
+	color: var(--corp)!important;
+}
+
+.link-bottom {
+	text-align: center;
+	display: block;
+	margin-top: 54px;
+	cursor: pointer;
+}
+
+h3, .h3 {
+	display: block;
+	font-size: 33px;
+	line-height: 1.1;
+	font-weight: 500;
+}
+
+h4, .h4 {
+	display: block;
+	font-size: 25px;
+	line-height: 1.1;
+	font-weight: 500;
+}
+
+.t-corp {
+	color: var(--corp);
+}
+
+p {
+	margin: 0;
+	font-weight: 500;
+}
+
+.t-20 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.bolder {
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 1440px) {
+    h1, .h1 {
+        font-size: 55px;
+    }
+	.h3, h3 {
+		font-size: 24px;
+	}
+	.h2, h2 {
+		font-size: 30px;
+	}
+	.t-20, ul li {
+		font-size: 16px!important;
+	}
+	h4, .h4 {
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 1080px) {
+	.h1, h1 {
+		font-weight: 700;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.screen-one .wrapper {
+		padding-left: 28px!important;
+		padding-right: 28px!important;
+		padding-bottom: 200px;
+		.btns {
+			button:last-child {
+				display: none;
+			}
+		}
+	}
+	header {
+		left: 28px!important;
+		right: 28px!important;
+	}
+	br {
+		display: none !important;
+	}
+	.h1, h1 {
+		font-size: 36px;
+		line-height: 1.15;
+		font-weight: 900;
+	}
+	.h3, h3 {
+		font-size: 26px;
+		font-weight: 700;
+	}
+}
+
