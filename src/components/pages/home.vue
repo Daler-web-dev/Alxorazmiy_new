@@ -55,7 +55,7 @@
                         <button class="yellow">Свяжитесь с нами</button>
                     </div>
                     <div class="right_side">
-                        <img src="../../assets/img/baby.png" />
+                        <img src="../../assets/img/baby.png.jpg" />
                     </div>
                 </div>
             </div>
@@ -129,32 +129,36 @@
         </div>
 
         <div class="grid_container def-width-medium">
-            <img src="../../assets/grid_img/grid1.png" />
-            <img src="../../assets/grid_img/grid2.png" />
-            <img src="../../assets/grid_img/grid6.png" />
-            <img src="../../assets/grid_img/grid7.png" />
-            <img src="../../assets/grid_img/grid5.png" />
-            <img src="../../assets/grid_img/grid6.png" />
-            <img src="../../assets/grid_img/grid7.png" />
-            <img src="../../assets/grid_img/grid5.png" />
-            <img src="../../assets/grid_img/grid1.png" />
-            <img src="../../assets/grid_img/grid2.png" />
-            <img src="../../assets/grid_img/grid1.png" />
-            <img src="../../assets/grid_img/grid7.png" />
-            <img src="../../assets/grid_img/grid6.png" />
+            <img src="../../assets/grid_img/grid1.jpg" />
+            <img src="../../assets/grid_img/grid2.jpg" />
+            <img src="../../assets/grid_img/grid3.jpg" />
+            <img src="../../assets/grid_img/grid4.jpg" />
+            <img src="../../assets/grid_img/grid5.jpg" />
+            <img src="../../assets/grid_img/grid6.jpg" />
+            <img src="../../assets/grid_img/grid8.jpg" />
+            <img src="../../assets/grid_img/grid7.jpg" />
+            <img src="../../assets/grid_img/grid9.jpg" />
+            <img src="../../assets/grid_img/grid10.jpg" />
+            <img src="../../assets/grid_img/grid11.jpg" />
+            <img src="../../assets/grid_img/grid12.jpg" />
+            <img src="../../assets/grid_img/grid8.jpg" />
         </div>
 
         <div class="grid_container_for_mobile  def-width-medium ">
             <carousel :autoplay="false" :nav="false" :items="true" :dots="false">
-                <img src="../../assets/grid_img/grid2.png" />
-                <img src="../../assets/grid_img/grid6.png" />
-                <img src="../../assets/grid_img/grid7.png" />
-                <img src="../../assets/grid_img/grid5.png" />
-                <img src="../../assets/grid_img/grid6.png" />
-                <img src="../../assets/grid_img/grid7.png" />
-                <img src="../../assets/grid_img/grid5.png" />
-                <img src="../../assets/grid_img/grid2.png" />
-                <img src="../../assets/grid_img/grid7.png" />
+                <img src="../../assets/grid_img/grid1.jpg" />
+                <img src="../../assets/grid_img/grid2.jpg" />
+                <img src="../../assets/grid_img/grid3.jpg" />
+                <img src="../../assets/grid_img/grid4.jpg" />
+                <img src="../../assets/grid_img/grid5.jpg" />
+                <img src="../../assets/grid_img/grid6.jpg" />
+                <img src="../../assets/grid_img/grid8.jpg" />
+                <img src="../../assets/grid_img/grid7.jpg" />
+                <img src="../../assets/grid_img/grid9.jpg" />
+                <img src="../../assets/grid_img/grid10.jpg" />
+                <img src="../../assets/grid_img/grid11.jpg" />
+                <img src="../../assets/grid_img/grid12.jpg" />
+                <img src="../../assets/grid_img/grid8.jpg" />
             </carousel>
         </div>
 

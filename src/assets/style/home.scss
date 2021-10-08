@@ -72,7 +72,12 @@ body {
         }
     }
 }
-
+.right_side {
+    img {
+        width: 100%;
+        border-radius: 12px;
+    }
+}
 header {
     display: flex;
     justify-content: space-between;

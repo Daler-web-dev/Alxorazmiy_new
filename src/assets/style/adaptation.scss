@@ -110,8 +110,8 @@
         width: 1080px !important;
     }
     .right_side img {
+        width: 100%;
         // max-width: 570px;
-        max-width: 100%;
     }
     .blockk_heading {
         margin-bottom: 40px !important;
@@ -526,6 +526,10 @@
     .def-width-medium {
         width: 100% !important;
     }
+    .item p {
+        padding-right: 20px;
+    }
+    
     .about_study_block {
         .left_info_side {
             display: flex;
@@ -795,14 +799,14 @@
     .adress_soc {
         display: none;
     }
-    .modalForm {
+    .def-widget {
         align-items: center !important;
         position: fixed;
         top: 0 !important;
         bottom: 0 !important;
         left: 0 !important;
         right: 0 !important;
-        padding: 0px 25px !important;
+        padding: 21px 25px !important;
         max-width: 100% !important;
         height: 100% !important;
         overflow: hidden !important;
@@ -813,8 +817,11 @@
             }
         }
         .submit-block {
-            flex-direction: column !important;
+            flex-direction: column;
             align-items: flex-start;
+            .note {
+                padding: 10px 0px !important;
+            }
         }
     }
 /// footer 
